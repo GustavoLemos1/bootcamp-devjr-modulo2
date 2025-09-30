@@ -63,6 +63,14 @@
             padding: 20px;
     
         }
+        .col-register{
+            background-color: #006a6a;
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: center;
+            align-content: space-around;
+        }
 
         .subscription-title{
             font-size: 1.25rem;
@@ -120,3 +128,20 @@
                 width: 95%;
             }
         }
+        input{
+                width: 100%;
+                height: 22px;
+                padding: 8px;
+                font-size: 1.2rem;
+                border-radius: 5px;
+                border: 0;
+                margin: 10px;
+            }
+            input:focus{
+                outline: none;
+                box-shadow: 0 0 10px #006a6a;
+            }
+            a {
+                color:#E9E9E9;
+                font-size: 0.8rem;
+            }
